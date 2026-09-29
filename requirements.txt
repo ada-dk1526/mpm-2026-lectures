@@ -1,0 +1,23 @@
+# Core scientific stack. Installed from conda-forge by environment.yml; listed
+# here too so that `pip install -r requirements.txt` in a plain venv also works.
+numpy
+scipy
+matplotlib
+pandas
+ipython
+jupyter
+ipympl            # interactive plots (%matplotlib widget), Lecture 02
+
+# Testing, debugging and documentation (Lectures 04 and 05)
+pytest
+pytest-cov
+flake8
+sphinx
+
+# Profiling (Lecture 03)
+line_profiler
+seaborn
+requests
+
+# Debugging example (Lecture 04)
+scikit-image
