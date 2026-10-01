@@ -46,7 +46,7 @@ You must also complete the College's online course "An Introduction to Generativ
 |06-10-2026 Tue 9:00-12:00  | NumPy and SciPy                                        | Rhodri Nelson               | [Lecture02](Lecture02)   |
 |07-10-2026 Wed 9:00-12:00  | Code profiling and optimisation                        | Marijan Beg                 | [Lecture03](Lecture03)   |
 |08-10-2026 Thu 9:00-12:00  | Debugging and testing                                  | Rhodri Nelson               | [Lecture04](Lecture04)   |
-|09-10-2026 Fri 9:00-16:00  | Coding Without (and with) AI - Mock Coding Assignment (Unassessed)++ | Rhodri Nelson |                    |
+|09-10-2026 Fri 9:00-17:00  | Coding Without (and with) AI - Mock Coding Assignment (Unassessed)++ | Rhodri Nelson |                    |
 |12-10-2026 Mon 9:00-12:00  | Python packaging and continuous integration            | Marijan Beg & Rhodri Nelson | [Lecture05](Lecture05)   |
 |13-10-2026 Tue 9:00-12:00  | Introduction to small language models                  | Rhodri Nelson               | [Lecture06](Lecture06)   |
 |14-10-2026 Wed 9:00-12:00  | Floating point arithmetic                              | Marijan Beg                 | [Lecture07](Lecture07)   |

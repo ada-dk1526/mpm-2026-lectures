@@ -1,0 +1,5 @@
+.ipynb_checkpoints
+__pycache__
+# Files written by running the lecture notebook
+savedata.txt
+sin.png
