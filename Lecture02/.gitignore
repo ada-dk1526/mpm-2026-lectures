@@ -1,5 +1,7 @@
 .ipynb_checkpoints
 __pycache__
-# Files written by running the lecture notebook
+# Files written by running the lecture notebook and its solutions
+myfile.npy
+out.png
 savedata.txt
 sin.png
