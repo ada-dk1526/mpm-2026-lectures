@@ -55,7 +55,7 @@ You must also complete the College's online course "An Introduction to Generativ
 
 +For the first lecture, it's probable that presentation of the material will continue into the afternoon session.
 
-++Requirements of the Mock Coding Assignment will be discussed in detail at 09:00 on the Friday. This is designed to be a fun and informal day of coding to prepare you for the formal assessment the following week and also those of future courses! Submissions will be tested against a suite of in-house tests and a personal feedback report provided. To re-iterate, this will be an **unassessed** submission.
+++Requirements of the Mock Coding Assignment will be discussed in detail at 09:00 on the Friday. This is designed to be a fun and informal day of coding to prepare you for the formal assessment the following week and also those of future courses! Submissions will be tested against a suite of in-house tests, and you'll receive an automatically generated feedback report. To re-iterate, this will be an **unassessed** submission.
 
 Morning sessions are lectures, and the afternoon sessions are practicals in which you work through the lecture's exercises and problem sheets. Each lecture also comes with a short multiple-choice self-check quiz covering its main points (`quiz.ipynb` in the lecture's folder; open it and click an option under each question). Complete it before you start the lecture's main problem sheet, or any part of the coursework that relies on that lecture's material. The answers, with explanations, are released afterwards so that you can check your own. The quizzes are formative (unassessed), but they are also good preparation for the multiple-choice part of the consolidation test.
 
