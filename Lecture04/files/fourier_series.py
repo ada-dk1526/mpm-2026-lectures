@@ -16,8 +16,9 @@ def eval_fc(x, N):
     """Partial sum of the Fourier series of x**2, up to the term n = N."""
     f = np.pi**2/3
     for i in range(1, N+1):
-        f += 4*(-1)**i/N**2*np.cos(i*x)
+        f += 4*(-1)**i/i**2*np.cos(i*x)
         # To investigate, add a print statement, breakpoint() or embed() here
+        from IPython import embed; embed()
     return f
 
 
