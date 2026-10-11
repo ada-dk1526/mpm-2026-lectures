@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+__pycache__
+.pytest_cache
+# Corpus is fetched by download_data.py (or slmtools.load_text) rather than committed
+data/*.txt
+data/*.part
