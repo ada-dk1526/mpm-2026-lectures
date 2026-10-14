@@ -1,0 +1,44 @@
+name: pytest-unit-tests
+
+on:
+  # Run the workflow on a push to main, or on a pull request into main
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  pytest:
+    name: ${{ matrix.os }}, Python ${{ matrix.python-version }}
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      # Let every job in the matrix finish, even if one of them fails
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04, ubuntu-26.04, windows-latest, macos-latest]
+        python-version: ["3.14"]
+        include:
+          # One more job: an older Python, on Linux only
+          - os: ubuntu-latest
+            python-version: "3.12"
+
+    steps:
+    - name: Checkout simple_functions
+      uses: actions/checkout@v7
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v7
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install the package and its dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -e ".[dev]"
+
+    - name: Test with pytest
+      run: |
+        pytest tests/
